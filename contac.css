@@ -1,0 +1,168 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #D0D3D4 ;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: absolute;
+
+}
+/*div{
+	border:2px solid grey;
+	width: 50px;
+	height: 50px;
+
+}*/
+a{	/*border:1px solid grey;*/
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-family: "arial";
+	background-size: 100% 100%;
+}
+#conted{ width: 100%;
+		height: 100%;
+
+}
+
+
+
+#uno{
+	background-color: white;
+	margin-top: 0px;
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+	position: fixed;
+
+}
+#conted{
+	display: flex;
+}
+			#logo{	background-image: url(logo.jpg);
+				 	background-size: 100% 100%;
+				 	width: 110px;
+					height: 110px;
+					float: left;
+					display: inline-block;
+					margin-left: 15px;
+					margin-top: 15px;
+					border-radius: 48%;
+					border:none;
+					
+			}
+
+			#Prac{ display: inline-block;
+					width: 150px;
+					height: 18px;
+					float: left;
+					padding: 30px;
+	   				margin-left: 10px;
+					margin-top: 30px;
+					font-style: "Open sans";
+					font-size: 20px;
+					justify-content: space-between;
+
+					}	
+
+			.menu{	width: 500px;
+					height: 50px;
+					float: right;
+					margin-right: 10px;
+					margin-top: 50px;
+
+			}
+			#Ini{ 	display: inline-block;
+					width: 90px;
+					height: 25px;
+					float: right;
+					margin-right: 250px;
+					margin-top: 10px;
+					font-style: "Arial";
+					font-size: 20px;
+					border-radius: 5px 5px 5px 5px;
+					box-shadow: 1px 1px 0px 1px grey;
+					transition: 1s all;
+					text-decoration: none;
+					}
+			#Ini:hover{transition:1s all;
+					transform: scale(1.1,1.1);
+					}
+			#Con{ 	text-decoration: none;
+					display: inline-block;
+					width: 130px;
+					height: 25px;
+					float: right;
+					margin-right: -250px;
+					margin-top: 10px;
+					font-style: "Arial";
+					font-size: 20px;
+					border-radius: 5px 5px 5px 5px;
+					box-shadow: 1px 1px 0px 1px grey;
+					transition: 1s all;
+					}
+			#Con:hover{
+				 	transition:1s all;
+					transform: scale(1.1,1.1);
+					
+			}
+#dos{
+	background-color:black ;
+
+	margin-top: 130px;
+	
+	width: 1349px;
+	height: 800px;
+	
+
+}
+#contenedor{ 
+			  width: 400px;
+			  height: 350px;
+			  padding: 90px;
+			  margin: 90px auto;
+			  font-family: Arial;
+			   text-align: center;
+			   background-color: black ;		  
+}
+.navf{
+	margin-top:-70px;
+}
+textarea,input{ width: 400px;
+				height: 25px;
+				border-radius: 6px;
+
+}
+
+.mm{	background-color: white;
+		width: 100px;
+		height: 20px;
+		text-align: center;
+		text-decoration: none;
+		font-family: "arial";
+		transition: 1s all;
+		border:none;
+		display: block;
+		margin: 10px;
+
+		}
+.mm:hover{background-color: #2980B9;
+				transition: 0.1s all;
+				color: white;
+				border:none;
+				transform: scale(1.1,1.1);
+		  }
+
+.est{	display: block;
+		margin: 0px;
+		margin-bottom: 20px;
+		margin-left: 60px
+}
+#limpiar{
+	margin-top: -40px;
+	margin-left: 140px;
+}

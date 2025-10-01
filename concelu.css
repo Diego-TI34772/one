@@ -1,0 +1,200 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #D0D3D4 ;
+	background-attachment: absolute;
+	background-size: 100% 100%;
+	position: absolute;
+
+}
+/*div{
+	border:1px solid grey;
+	width: 50px;
+	height: 50px;
+}*/
+a{
+	color: black;
+	text-decoration: none;
+	font-family: "arial";
+
+}
+#conted{ width: 100%;
+		height: 100%;
+
+}
+
+
+#uno{
+	background-color: white;
+	color: white;
+	margin-top: 0px;
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+
+}
+	.logo{	width: 100px;
+			height: 120px;
+			display: block;
+			margin-right: 20px;
+
+
+	}
+
+			#logo{	background-image: url(logo.jpg);
+				 	background-size: 100% 100%;
+				 	width: 80px;
+					height: 80px;
+					/*float: center;*/
+					display: inline-block;
+					margin-right: 10px;
+					margin-top: 8px;
+					border-radius: 48%;
+					/*border:none;*/
+					padding: 0px;
+					
+
+
+			}
+
+			#Prac{ /*display: inline-block;*/
+					display: inline-block;
+					width: 80px;
+					height: 15px;
+					float: left;
+	   				margin-left: 10px;
+					margin-top: -25px;
+					font-style: "Arial";
+					font-size: 15px;
+					color: black;
+
+					}
+/*----------------------menu---------------*/
+					.nav{
+						position: absolute;
+						top: 60px;
+						left: 100%;
+						width: 70%;
+						margin-left: 100px;
+						transition: 0.5s all;
+					}
+					.menu{
+						list-style: none;
+						padding: 0px;
+						margin: 0px;
+
+					}
+
+				.icmenu{ background-image: url(men.png);
+						width: 40px;
+						height: 40px;
+						background-size: 100% 100%;
+						display: block;
+						background-color:#34495E ;
+						margin-top: -100px;
+						margin-left: auto;
+						cursor: pointer;
+						border-radius: 6px;
+				}
+				.mostrar{
+					left: 0;
+					transition: 0.5s all;
+
+				}
+			.bt{ display: block;
+				padding: 10px;
+				background-color: #34495E;
+				text-decoration: none;
+				text-align: center;
+
+			}
+			.bt:hover{
+				background:white;
+				color:#34495E;
+			}
+
+/*-----------------------formulario--------------------------*/
+#dos{
+	background-color: black ;
+	background-size: 100% 100%;
+	margin-top: 80px;
+	width: 200px;
+	height: 500px;
+}
+#contenedor{ /*border: 1px solid grey;*/
+			  width: 160px;
+			  height: 650px;
+			  padding: 100px;
+			  margin: 50px auto;
+			  font-family: Arial;
+			   text-align: center;
+			   background-color: black ;		  
+}
+
+/*--------formulario---------*/
+form{	text-decoration: none;
+		width: 200px;
+		margin: auto;
+		background: black;
+		border-radius: 6px;
+		margin: 20px;
+		padding: 20px;
+		margin-left: -20px;
+		margin-top: -50px;
+}
+ul,li{
+	text-decoration:none;
+}
+
+input,textarea{
+	text-decoration: none;
+	width: 200px;
+	height: 30px;
+	border-radius: 6px;
+	margin-left: -10px;
+	margin: 1px;
+
+}
+textarea{
+		min-height:100px;
+		max-height: 200px;
+		max-width: 100%;
+
+
+}
+
+
+/*------------botones------------*/
+	.navb{ position: absolute;
+			margin-top: 10px;
+
+		}
+}
+.est{
+	text-decoration: none;
+
+	top: 120px;
+	left: 0;
+	width: 0;
+	margin-left: 150px;
+}
+.mm{ 	width: 140px;
+		height: 30px;
+		margin-bottom: 15px;
+		margin-left: 30px;
+		background-color: white;
+		border:none; 
+		transition: 0.3s all;
+		border-radius: 4px;
+		}
+.mm:hover{background-color: #2980B9;
+				transition: 0.3s all;
+				color: white;
+				border:none;
+				transform: scale(1.1,1.1);
+		  }
